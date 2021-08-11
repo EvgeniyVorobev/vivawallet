@@ -2,6 +2,7 @@
 
 header('Access-control-allow-origin *');
 header('Access-Control-Allow-Methods: PUT, POST, OPTIONS, DELETE, GET');
+header('Access-Control-Allow-Headers: origin, x-requested-with, content-type");
 
 $merchantid = '053f5757-b9e0-eb11-bacb-000d3addda2d'; // merchant id from api settings
 $apikey = 'zXCzSDQ$#'; // api key from api settings
