@@ -1,7 +1,6 @@
-<script>
 $(function () {
     var it = 0;
-    var url = 'http://f0428258.xsph.ru/vivawallet/index.php'; // back-end handler;
+    var url = 'https://tildavivawallet.herokuapp.com/index.php'; // back-end handler;
     var cart_message = '';
     var all_quantity = 0; // Cantidad вещей.
     var amount = 0; // Общая сумма
@@ -289,4 +288,3 @@ $(function () {
         }
     },1000)
 })
-</script>
