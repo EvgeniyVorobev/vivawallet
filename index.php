@@ -1,7 +1,7 @@
 <?php
 
-$merchantid = '053f5757-b9e0-eb11-bacb-000d3addda2d'; // merchant id from api settings
-$apikey = 'zXCzSDQ$#'; // api key from api settings
+$merchantid = '053f5757-b9e0-XXX-bacb-000d3addda2d'; // merchant id from api settings
+$apikey = 'XXXXX'; // api key from api settings
 $source_code = '8052'; // source code from api settings
 $requestLang = 'es-ES'; // Language ;
 $base64encode = base64_encode($merchantid . ':' . $apikey);
